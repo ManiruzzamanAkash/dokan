@@ -390,7 +390,7 @@ class Hooks {
 
         <select
             style="width: 40%;"
-            id="dokan_product_author_override"
+            class="dokan_product_author_override"
             name="dokan_product_author_override"
             data-placeholder="<?php esc_attr_e( 'Select vendor', 'dokan-lite' ); ?>"
             data-action="dokan_product_search_author"
@@ -405,7 +405,7 @@ class Hooks {
     /**
      * Ajax method to search vendors
      *
-     * @since DOKAN_SINCE
+     * @since 3.7.1
      *
      * @return void
      */
